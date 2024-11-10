@@ -1,12 +1,10 @@
 # Linux-IPC-Shared-memory
-
 Ex06-Linux IPC-Shared-memory
 
-## AIM:
-
+# AIM:
 To Write a C program that illustrates two processes communicating using shared memory.
 
-## DESIGN STEPS:
+# DESIGN STEPS:
 
 ### Step 1:
 
@@ -14,15 +12,15 @@ Navigate to any Linux environment installed on the system or installed inside a 
 
 ### Step 2:
 
-Write the C Program using Linux Process API - Shared Memory.
+Write the C Program using Linux Process API - Shared Memory
 
 ### Step 3:
 
 Execute the C Program for the desired output. 
 
-## PROGRAM:
+# PROGRAM:
 
-### Write a C program that illustrates two processes communicating using shared memory.
+## Write a C program that illustrates two processes communicating using shared memory.
 
 ```
 //shmry1.c
@@ -80,8 +78,9 @@ fprintf(stderr, "failed to delete\n");
 exit(EXIT_FAILURE);
 } exit(EXIT_SUCCESS);
 }
-```
-```
+
+
+
 //shmry2.c
 
 #include<unistd.h> 
@@ -131,16 +130,17 @@ fprintf(stderr, "shmdt failed\n"); exit(EXIT_FAILURE);
 }
 ```
 
-## OUTPUT:
-
-![alt text](6i.png)
-![alt text](6ii.png)
-
-![alt text](6iii.png)
-![alt text](6iv.png)
-![alt text](6v.png)
 
 
-## RESULT:
+## OUTPUT
+![image](https://github.com/user-attachments/assets/610cc55e-d6bc-42f9-9e87-793c4accef3c)
+![image](https://github.com/user-attachments/assets/7e23802a-9f8a-4e23-900a-d3fcef83e5ae)
 
+![image](https://github.com/user-attachments/assets/529a6746-3d96-4891-ba9b-08963439c6d5)
+![image](https://github.com/user-attachments/assets/a5184c5d-1785-48b0-ba30-c450333530a1)
+![image](https://github.com/user-attachments/assets/d345f4e4-f7dd-4cab-9c54-7a1ec4cccf7d)
+
+
+
+# RESULT:
 The program is executed successfully.
